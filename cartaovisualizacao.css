@@ -9,8 +9,7 @@ body {
     height: 450px;
     border: 2px solid white;
     margin-left: 30%;
-    margin-top:8%;
-    
+    margin-top:8%;   
 }
 
 .photo-side {
@@ -28,6 +27,49 @@ position: relative;
 .text-side {
     width: 500px;
     height: 450px;
-    background-color: red;
+    background-color: white;
     position: relative;
+}
+
+h1 {
+    font-family:'Montserrat', sans-serif;
+    padding-top: 10%;
+    font-size: 14px;
+    text-align:justify;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+.style-h1 {
+    text-transform: uppercase;
+    color: #8f9097
+}
+
+.style-b {
+    font-weight: bold;
+    font-size: 24px;
+    font-family:'Fraunces', serif;;
+}
+
+.style-h1-2 {
+    color: #8f9097;
+    
+}
+
+.style-price {
+    color: #41836b;
+    font-family: 'Ubuntu', sem serifa;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h2 {
+    padding-top: 35px;
+    padding-left: 25px;
+   
+}
+
+button {
+    color: black;
+    font-family: 'Ubuntu',
 }
